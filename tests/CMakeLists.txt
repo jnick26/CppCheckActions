@@ -5,4 +5,4 @@ add_executable(tests ${TEST_SOURCES})
 target_link_libraries(tests PRIVATE library GTest::gmock_main)
 
 include(GoogleTest)
-gtest_discover_tests(hello_test)
+gtest_discover_tests(tests)
